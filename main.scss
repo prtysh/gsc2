@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  height: 100vh;
+  max-width: 100%;
+  color: #eeeeee;
+  //   font-family: "Chivo", sans-serif;
+  //   font-family: "Rock Salt", cursive;
+  //   font-family: "Space Grotesk", sans-serif;
+  font-family: "Chivo", sans-serif;
+}
+
+section {
+  display: flex;
+  //   flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 9em;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+  p {
+    opacity: 0;
+    transition: opacity 4s;
+    // border-left: #cccccc 1px double;
+    padding: 10px;
+  }
+  div {
+    p {
+      opacity: 1;
+    //   border-left: #cccccc 1px double;
+      padding: 10px;
+    }
+  }
+}
+
+section:nth-child(odd) {
+  background-color: #222222;
+}
+
+section:nth-child(even) {
+  background-color: #111111;
+}
+
+.landing {
+  font-family: "Rock Salt", cursive;
+  font-size: 40px;
+}
+
+// .container {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.scrolled-p {
+  opacity: 1;
+}
+
+aside {
+  float: right;
+  width: 50%;
+  font-weight: 100;
+  padding: 13px;
+  margin: 0 13px 13px 0;
+  float: right;
+  color: #cccccc;
+  line-height: 0.9;
+  border-left: #cccccc 1px double;
+}
+
+blockquote {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0; /* gets rid of the default blockquote margin */
+}
+
+h1 {
+  padding: 1rem;
+}
+
+.border-pink {
+  border-left: #ea62d8 2px double;
+}
+.border-yellow {
+  border-left: #eacb4f 2px double;
+}
+.border-orange {
+  border-left: #ea7e4f 1px double;
+}
+
+.border-purple {
+  border-left: #9b42f4 1px double;
+}
+.border-red {
+  border-left: #ef1a4c 1px double;
+}
+.border-brown {
+  border-left: #512818 1px double;
+}
+
+
+// .border-pink {
+//     border-left: #ffebf0 2px double;
+//   }
+//   .border-yellow {
+//     border-left: #fff1ca 2px double;
+//   }
+//   .border-orange {
+//     border-left: #ffd2b2 1px double;
+//   }
+  
+//   .border-purple {
+//     border-left: #e5c9ff 1px double;
+//   }
+//   .border-red {
+//     border-left: #eac1c1 1px double;
+//   }
+//   .border-brown {
+//     border-left: #ead59b 1px double;
+//   }
+  
